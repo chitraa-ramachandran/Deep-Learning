@@ -48,6 +48,7 @@ The nonlinear transformations at the hidden layer level have the main characteri
 ### SELF ORGANIZING MAPS
 Kohenen's SOM belongs to the class of unsupervised learning network.The nodes of the KSOM can recognize groups of similar input vectors.This generates a topographic mapping of the input vectors to the output layer, which depends primarily on the pattern of the input vectors and results in dimensionality reduction of the input space.So,we consider a input vector that is connected to the neurons in the topographical map by weights and through the process of competitive learning we find the winning neuron and after which we update the weights of the neighbourhood of the winning neuron.The network is trained on a certain number of epochs and as the number of epochs through which the model is trained increases the neighbourhood also decreases and the self organizing network convergers in finite steps.The goal is that if you present a similar input vector to the SOM it should be able to recognize the stored input pattern presented to it during the training and match the present input vector to the desired target neuron.
 <br />
+<br/> <br />
 The analysis and report with full code is present in the uploaded ipynb files.
 
 
